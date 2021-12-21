@@ -10,7 +10,7 @@ This project was created using [Create React App](https://github.com/facebook/cr
 
 The `TrafficLight` component, reused for all three lights, renders according to two properties: a boolean value which indicates if the particular light is turned on, and the other, string property gives the color which will be used to style the color should the light be turned on. The component renders conditionally and adds light color or renders the default color based on the boolean value property.
 
-The `TrafficLightBox` component houses the three `TrafficLight` components and maintains the state for the lights in an object containing boolean values each of which assigned to one of the three lights. The component also uses a `useCallback` hook for a light-switching function, which is included as a dependent in a `useEffect` hook and called when the App mounts and when the function calls itself before completing each iteration of switching the lights from red to green to yellow back to red.
+The `TrafficLightBox` component houses the three `TrafficLight` components and maintains the state for the lights in an object containing boolean values each of which assigned to one of the three lights. The component also uses a `useCallback` hook for a light-switching function, which is included as a dependency in a `useEffect` hook and called when the App mounts and when the function calls itself before completing each iteration of switching the lights from red to green to yellow back to red.
 
 The `App` component is a skeleton which returns the `TrafficLightBox` component.
 
