@@ -6,7 +6,7 @@ This project is completed as part of the technical interview for an application 
 
 ![Site Screenshot](public/img/site_screenshot.png)
 
-This project was created using [Create React App](https://github.com/facebook/create-react-app). The App incorporates a couple of components that render the traffic lights inside a light box.
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The App incorporates a couple of components that render the traffic lights inside a light box.
 
 The `TrafficLight` component, reused for all three lights, renders according to two properties: a boolean value which indicates if the particular light is turned on, and the other, string property gives the color which will be used to style the color should the light be turned on. The component renders conditionally and adds light color or renders the default color based on the boolean value property.
 
