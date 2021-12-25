@@ -4,7 +4,7 @@ This project is completed as part of the technical interview for an application 
 
 ## About the Project
 
-![Site Screenshot](src/img/site_screenshot.png)
+![Site Screenshot](public/img/site_screenshot.png)
 
 This project was created using [Create React App](https://github.com/facebook/create-react-app). The App incorporates a couple of components that render the traffic lights inside a light box.
 
